@@ -1,15 +1,26 @@
 const router = require('express').Router();
+const sequelize = require('sequelize');
 const { Category, Product } = require('../../models');
+const { query } = require('express');
 
 // The `/api/categories` endpoint
 
-router.get('/', (req, res) => {
+
+router.get('/', async(req, res) => {
   // find all categories
+
+  const categories= await Category.findAll()
+  
+  const result=await JSON.stringify(categories)
+  res.send(result)
   // be sure to include its associated Products
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async(req, res) => {
   // find one category by its `id` value
+  const categories=await Category.findByPk(req.params.id)
+  const result=await JSON.stringify(categories)
+  res.send(result)
   // be sure to include its associated Products
 });
 
