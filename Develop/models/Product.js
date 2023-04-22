@@ -35,6 +35,15 @@ Product.init(
         isDecimal: true //validates that this is true
       }
     },
+    category_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true, //if you delete products don't want to delete whole category column
+      references: {
+        model: 'category',
+        key: 'id'
+      }
+    }
+
   },
   {
     sequelize,
