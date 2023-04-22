@@ -28,6 +28,13 @@ Product.init(
         isNumeric: true
       }
     },
+    price: {
+      type: DataTypes.DECIMAL(5, 2),
+      allowNull: false,
+      validate: {
+        isDecimal: true //validates that this is true
+      }
+    },
   },
   {
     sequelize,
