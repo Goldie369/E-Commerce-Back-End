@@ -4,9 +4,14 @@ const { Tag, Product, ProductTag } = require('../../models');
 // The `/api/tags` endpoint
 const sequelize = require('../../config/connection.js');
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   // find all tags
   // be sure to include its associated Product data
+  const tags = await Tag.findAll({
+    include: [Product] //will bring in all categories via index.js file 
+  })
+  res.status(200).json(tags)
+
 });
 
 router.get('/:id', (req, res) => {
