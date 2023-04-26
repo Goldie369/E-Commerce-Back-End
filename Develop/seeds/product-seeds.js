@@ -1,3 +1,8 @@
+//-- Adding function seedProducts() that seeds the Product model with some initial data--//
+//-- The productData array contains objects that represent the data to be inserted into the Product table.--//
+//-- The seedProducts() function calls the bulkCreate() method on the Product model, which inserts multiple rows into the Product--//
+//-- Finally, the seedProducts() function is exported, which allows it to be imported and called by other files--//
+
 const { Product } = require('../models');
 
 const productData = [
