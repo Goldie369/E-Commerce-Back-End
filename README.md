@@ -4,11 +4,12 @@
 
 
 ## Description
+This application is a back-end application for an E-commerce business designed for managers and other users to be able to access, create, update, and delete stored data.
 
 
 ## Table of Contents 
 
-* [Instructions](#Instructions)
+* [Description ](#Description)
 
 * [Screenshot](#Screenshot)
 
@@ -21,9 +22,6 @@
 * [Questions](#Questions)
 
 * [Credits](#Questions)
-
-## Instructions
-
 
 
 ## Screenshot
@@ -40,7 +38,7 @@
 
 
 ## Resources
-
+- [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 
 
 ## Questions
