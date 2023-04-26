@@ -34,6 +34,12 @@ This application is a back-end application for an E-commerce business designed f
 
 ## Usage
 
+* Clone the Repo
+* Run an "npm i" in your terminal
+* Sign into mysql and source the schema.sql file
+* Run "npm start" to execute the file
+* Open insomnia and utilize the GET, POST, PUT, and DELETE methods to manipulate the database
+
 
 
 
