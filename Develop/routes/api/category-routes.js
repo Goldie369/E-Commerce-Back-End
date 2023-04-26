@@ -1,3 +1,8 @@
+//-- Adding a express router--//
+//-- The router handles GET requests to the /api/categories endpoint--//
+//-- When the router receives a GET request to this endpoint, it executes an function that does the following:
+//-- Calls the findAll() method on the Category to retrieve all categories from the database--//
+
 const router = require('express').Router();
 const sequelize = require('sequelize');
 const { Category, Product } = require('../../models');
