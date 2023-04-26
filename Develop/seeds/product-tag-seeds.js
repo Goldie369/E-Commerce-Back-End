@@ -1,3 +1,7 @@
+//-- Adding a function named seedProductTags--//
+//--The productTagData array contains objects with product_id and tag_id properties--//
+
+
 const { ProductTag } = require('../models');
 
 const productTagData = [
