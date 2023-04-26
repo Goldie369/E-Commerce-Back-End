@@ -1,4 +1,4 @@
-# E-Commerce-Back-End
+# E Commerce Back End
 
 ![](https://img.shields.io/badge/license-MIT-blue)
 
@@ -39,6 +39,11 @@ This application is a back-end application for an E-commerce business designed f
 
 ## Resources
 - [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+- [Node.js](https://nodejs.org/en/)
+- [MySQL](https://www.mysql.com/)
+- [Emoji](https://emojipedia.org/)
+- [Sequelize](https://sequelize.org/)
+- [Insomnia](https://insomnia.rest/)
 
 
 ## Questions
