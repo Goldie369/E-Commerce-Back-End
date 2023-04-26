@@ -1,3 +1,9 @@
+//-- Adding a function seedAll() that seeds the database with different fuctions: seedCategories(), seedProducts(), seedTags(), and seedProductTags()--//
+//-- The sequelize variable is imported from ../config/connection. This allows the script to connect to the database using Sequelize--//
+//-- The seedAll() function first calls sequelize.sync({ force: true }), which synchronizes the database--//
+//-- After syncing the database, the function calls each of the four seed functions one after the other using await--//
+//-- Finally, the process.exit(0) method is called to exit the Node.js process, which stops the script from running indefinitely.--//
+
 const seedCategories = require('./category-seeds');
 const seedProducts = require('./product-seeds');
 const seedTags = require('./tag-seeds');
