@@ -1,3 +1,7 @@
+//-- Adding a unction named seedTags--//
+//-- The tagData array contains objects with tag_name, representing the names of tags--//
+
+
 const { Tag } = require('../models');
 
 const tagData = [
