@@ -1,6 +1,12 @@
+//--Adding a two dependencies, "express" and "./routes"--//
+//-- const connection = require("./config/connection") is importing a module that sets up a database connection--//
+
 const express = require('express');
 const routes = require('./routes');
-// import sequelize connection
+
+//--import sequelize connection--//
+//-- constant variable app. process.env.PORT || 3001 sets the server's port to the environment variable--//
+
 const connection = require("./config/connection")
 
 const app = express();
