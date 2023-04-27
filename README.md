@@ -26,11 +26,14 @@ This application is a back-end application for an E-commerce business designed f
 
 ## Screenshot
 
-## ![Screenshot](./)
+## ![Screenshot](./images/Screen%20Shot%202023-04-26%20at%208.27.45%20PM.png)
+## ![Screenshot](./images/Screen%20Shot%202023-04-26%20at%208.27.56%20PM.png)
+## ![Screenshot](./images/Screen%20Shot%202023-04-26%20at%208.28.08%20PM.png)
+## ![Screenshot](./images/Screen%20Shot%202023-04-26%20at%208.28.13%20PM.png)
 
 
 ## Demo
-
+https://watch.screencastify.com/v/18l5V8aBZSFPspPis86A
 
 ## Usage
 
