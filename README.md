@@ -48,6 +48,8 @@ https://watch.screencastify.com/v/18l5V8aBZSFPspPis86A
 
 ## Resources
 - [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+- [YouTube](https://www.youtube.com/watch?v=Ep6WZy2Gr34)
+- [YouTube](https://www.youtube.com/watch?v=V9Uxh-zEuZI)
 - [Node.js](https://nodejs.org/en/)
 - [MySQL](https://www.mysql.com/)
 - [Emoji](https://emojipedia.org/)
